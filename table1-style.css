@@ -1,0 +1,29 @@
+table {
+    border: 2px solid #fec107;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 700px;
+    height: 100px;
+}
+
+th, td {
+    border: 1px solid #fec107;
+    padding: 20px;
+    font-family: Reem Kufi Fun;
+}
+
+th {
+    text-align: center;
+    width: 500px;
+    background: #fec107;
+}
+
+th:nth-last-of-type(2) {
+    background: #e5ae30;
+    color: black;
+}
+
+td {
+    background: #382c6e;
+    color: white;
+}
